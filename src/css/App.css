@@ -1,28 +1,89 @@
+/* Header */
 h1 {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 header {
-    background-color: rgb(40, 154, 99);
-    height: 45vh;
-    padding: 0 15%;
+  background-color: rgb(40, 154, 99);
+  height: 45vh;
+  padding: 0 15%;
 }
 
 input {
-    width: 30vw;
-    height: 4vh;
-    margin-top: 2%;
-    margin-right: 2%;
+  width: 30vw;
+  height: 4vh;
+  margin-top: 2%;
+  margin-right: 2%;
+  text-align: center;
 }
 
 .add {
-    width: 30.5vw;
-    height: 4.8vh;
+  width: 30.5vw;
+  height: 4.8vh;
 }
 
 .send {
-    width: 33vw;
-    height: 4.8vh;
-    margin: 2% 0 0 18%;
+  width: 33vw;
+  height: 4.8vh;
+  margin: 2% 0 0 18%;
+}
+
+/* Icon */
+svg {
+  padding: 0 2%;
+}
+
+#true {
+  color: green;
+}
+
+#false {
+  color: red;
+}
+
+#null {
+  color: grey;
+}
+
+/* table */
+.events {
+  display: flex;
+  justify-content: space-around;
+}
+
+article {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 30vw;
+}
+
+thead tr {
+  background-color: rgb(40, 154, 99);
+  color: #ffffff;
+  text-align: center;
+}
+
+th td {
+  padding: 12px 15px;
+}
+
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+thead th {
+  height: 40px;
+}
+
+tbody th {
+  height: 40px;
 }
