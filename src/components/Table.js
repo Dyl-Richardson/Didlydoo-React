@@ -34,9 +34,7 @@ export default function Table({item}) {
                 {item.dates[0].attendees.map(name => {
                                 return <tr key={uuidv4()}><th key={uuidv4()}>{name.name}</th></tr>
                                 })}
-
-
-
+               
                 </tbody>
             </table>
             
