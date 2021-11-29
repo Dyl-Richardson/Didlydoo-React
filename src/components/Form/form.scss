@@ -1,0 +1,26 @@
+.form {
+  header > div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15%;
+    justify-content: center;
+  }
+
+  input {
+    width: 30vw;
+    height: 4vh;
+    margin-top: 2%;
+    margin-right: 2%;
+    text-align: center;
+  }
+
+  .add {
+    width: 30.5vw;
+    height: 4.8vh;
+  }
+
+  .send {
+    width: 33vw;
+    height: 4.8vh;
+  }
+}

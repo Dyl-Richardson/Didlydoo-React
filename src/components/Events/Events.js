@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import Table from './Table'
+import Table from '../Table/Table'
 
 export default function Events() {
     const [data, setData] = useState([])

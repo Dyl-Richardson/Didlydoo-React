@@ -1,6 +1,6 @@
 import '../css/App.css';
-import Events from './Events';
-import Form from './Form';
+import Events from './Events/Events';
+import Form from './Form/Form';
 
 function App() {
   return (
